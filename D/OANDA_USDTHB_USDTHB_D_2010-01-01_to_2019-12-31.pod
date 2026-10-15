@@ -1,0 +1,71 @@
+{
+  "pod_version": "4.0",
+  "instrument": "USD_THB",
+  "granularity": "D",
+  "chunk_start": "2010-01-01",
+  "chunk_end": "2019-12-31",
+  "parquet_file": "OANDA_USDTHB_USDTHB_D_2010-01-01_to_2019-12-31.parquet",
+  "data_file": "OANDA_USDTHB_USDTHB_D_2010-01-01_to_2019-12-31.parquet",
+  "row_count": 2865,
+  "first_candle": {
+    "time": 1262469600,
+    "Time": "2010-01-02T22:00:00.000000000Z",
+    "open": 33.335,
+    "high": 33.344,
+    "low": 33.326,
+    "close": 33.326,
+    "volume": 9
+  },
+  "last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 29.965,
+    "high": 29.99,
+    "low": 29.718,
+    "close": 29.722,
+    "volume": 6086
+  },
+  "csv_file": "OANDA_USDTHB_USDTHB_D_2010-01-01_to_2019-12-31.parquet",
+  "csv_row_count": 2865,
+  "csv_first_candle": {
+    "time": 1262469600,
+    "Time": "2010-01-02T22:00:00.000000000Z",
+    "open": 33.335,
+    "high": 33.344,
+    "low": 33.326,
+    "close": 33.326,
+    "volume": 9
+  },
+  "csv_last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 29.965,
+    "high": 29.99,
+    "low": 29.718,
+    "close": 29.722,
+    "volume": 6086
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-15T23:47:34.000000000Z",
+  "generated_at": "2026-10-15T23:47:34.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 2,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2004-01-19T22:00:00Z",
+        "to": "2017-09-27T22:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2017-09-27T22:00:00Z",
+        "to": "2026-10-15T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
