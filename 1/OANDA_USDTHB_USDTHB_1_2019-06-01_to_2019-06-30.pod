@@ -1,0 +1,113 @@
+{
+  "pod_version": "4.0",
+  "instrument": "USD_THB",
+  "granularity": "M1",
+  "chunk_start": "2019-06-01",
+  "chunk_end": "2019-06-30",
+  "parquet_file": "OANDA_USDTHB_USDTHB_1_2019-06-01_to_2019-06-30.parquet",
+  "data_file": "OANDA_USDTHB_USDTHB_1_2019-06-01_to_2019-06-30.parquet",
+  "row_count": 16436,
+  "first_candle": {
+    "time": 1559509200,
+    "Time": "2019-06-02T21:00:00.000000000Z",
+    "open": 31.588,
+    "high": 31.588,
+    "low": 31.588,
+    "close": 31.588,
+    "volume": 1
+  },
+  "last_candle": {
+    "time": 1561939140,
+    "Time": "2019-06-30T23:59:00.000000000Z",
+    "open": 30.627,
+    "high": 30.627,
+    "low": 30.626,
+    "close": 30.626,
+    "volume": 6
+  },
+  "csv_file": "OANDA_USDTHB_USDTHB_1_2019-06-01_to_2019-06-30.parquet",
+  "csv_row_count": 16436,
+  "csv_first_candle": {
+    "time": 1559509200,
+    "Time": "2019-06-02T21:00:00.000000000Z",
+    "open": 31.588,
+    "high": 31.588,
+    "low": 31.588,
+    "close": 31.588,
+    "volume": 1
+  },
+  "csv_last_candle": {
+    "time": 1561939140,
+    "Time": "2019-06-30T23:59:00.000000000Z",
+    "open": 30.627,
+    "high": 30.627,
+    "low": 30.626,
+    "close": 30.626,
+    "volume": 6
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-15T23:47:00.000000000Z",
+  "generated_at": "2026-10-15T23:47:00.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2392,
+    "chunk_api_blocks": 9,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2019-05-31T20:13:00Z",
+        "to": "2019-06-04T07:33:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-06-04T07:33:00Z",
+        "to": "2019-06-07T18:53:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-06-07T18:53:00Z",
+        "to": "2019-06-11T06:13:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-06-11T06:13:00Z",
+        "to": "2019-06-14T17:33:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-06-14T17:33:00Z",
+        "to": "2019-06-18T04:53:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-06-18T04:53:00Z",
+        "to": "2019-06-21T16:13:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-06-21T16:13:00Z",
+        "to": "2019-06-25T03:33:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-06-25T03:33:00Z",
+        "to": "2019-06-28T14:53:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-06-28T14:53:00Z",
+        "to": "2019-07-02T02:13:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
