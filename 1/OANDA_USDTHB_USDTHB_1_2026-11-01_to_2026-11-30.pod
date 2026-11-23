@@ -6,7 +6,7 @@
   "chunk_end": "2026-11-30",
   "parquet_file": "OANDA_USDTHB_USDTHB_1_2026-11-01_to_2026-11-30.parquet",
   "data_file": "OANDA_USDTHB_USDTHB_1_2026-11-01_to_2026-11-30.parquet",
-  "row_count": 16924,
+  "row_count": 17378,
   "first_candle": {
     "time": 1793570640,
     "Time": "2026-11-01T22:04:00.000000000Z",
@@ -17,16 +17,16 @@
     "volume": 1
   },
   "last_candle": {
-    "time": 1795211880,
-    "Time": "2026-11-20T21:58:00.000000000Z",
-    "open": 33.928,
-    "high": 33.984,
-    "low": 33.928,
-    "close": 33.984,
-    "volume": 2
+    "time": 1795418220,
+    "Time": "2026-11-23T07:17:00.000000000Z",
+    "open": 34.014,
+    "high": 34.016,
+    "low": 34.01,
+    "close": 34.012,
+    "volume": 19
   },
   "csv_file": "OANDA_USDTHB_USDTHB_1_2026-11-01_to_2026-11-30.parquet",
-  "csv_row_count": 16924,
+  "csv_row_count": 17378,
   "csv_first_candle": {
     "time": 1793570640,
     "Time": "2026-11-01T22:04:00.000000000Z",
@@ -37,17 +37,17 @@
     "volume": 1
   },
   "csv_last_candle": {
-    "time": 1795211880,
-    "Time": "2026-11-20T21:58:00.000000000Z",
-    "open": 33.928,
-    "high": 33.984,
-    "low": 33.928,
-    "close": 33.984,
-    "volume": 2
+    "time": 1795418220,
+    "Time": "2026-11-23T07:17:00.000000000Z",
+    "open": 34.014,
+    "high": 34.016,
+    "low": 34.01,
+    "close": 34.012,
+    "volume": 19
   },
   "status": "VERIFIED_PARTIAL",
-  "verified_at": "2026-11-21T07:05:26.000000000Z",
-  "generated_at": "2026-11-21T07:05:26.000000000Z",
+  "verified_at": "2026-11-23T07:18:24.000000000Z",
+  "generated_at": "2026-11-23T07:18:24.000000000Z",
   "download_request": {
     "total_api_blocks_in_run": 1,
     "chunk_api_blocks": 1,
@@ -55,8 +55,8 @@
     "permanent_error_details": [],
     "all_block_outcomes": [
       {
-        "from": "2026-11-20T06:59:00Z",
-        "to": "2026-11-20T21:59:00Z",
+        "from": "2026-11-20T21:53:00Z",
+        "to": "2026-11-23T07:18:00Z",
         "code": 200,
         "msg": "OK"
       }
